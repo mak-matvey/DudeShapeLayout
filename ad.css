@@ -1,0 +1,30 @@
+.ad {
+	margin: 150px 0;
+}
+
+.ad-heading {
+	color: var(--main-black);
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.ad-up,
+.ad-down,
+.ad-content {
+	display: grid;
+}
+
+.ad-content {
+	grid-template-rows: 1fr 1fr;
+	gap: 50px;
+}
+
+.ad-up {
+	justify-content: center;
+    align-items: center;
+}
+
+.ad-down {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 25px;
+}

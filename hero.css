@@ -1,0 +1,32 @@
+.hero-content {
+	display: grid;
+	grid-template-columns: 410px 1fr;
+	background-color: var(--dark-green);
+}
+
+.hero-image {
+	max-height: clamp(360px, 560px, 560px);
+}
+
+.hero-right {
+	color: white;
+	margin: 80px 50px;
+}
+
+.hero-heading {
+	font-weight: 700;
+	font-size: 56px;
+}
+
+.hero-subheading {
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0;
+}
+
+.hero-button {
+	cursor: pointer;
+	padding: 15px 25px;
+	font-size: 20px;
+	color: var(--dark-green);
+}

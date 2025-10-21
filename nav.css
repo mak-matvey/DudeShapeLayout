@@ -2,7 +2,8 @@
 	display: grid;
 	grid-template-columns: 150px 1fr 80px;
 	align-items: center;
-    gap: 20%;
+	gap: 20%;
+	padding: 20px 0;
 }
 
 .nav-icons {
@@ -14,7 +15,7 @@
 .nav-list {
 	display: grid;
 	grid-template-columns: repeat(4, 25%);
-    gap: 10px;
+	gap: 10px;
 }
 
 .nav a {
