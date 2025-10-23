@@ -21,10 +21,14 @@
 
 .ad-up {
 	justify-content: center;
-    align-items: center;
+	align-items: center;
 }
 
 .ad-down {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: 0 25px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 0 25px;
+}
+
+.ad-down img {
+	cursor: pointer;
 }
