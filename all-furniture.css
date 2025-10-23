@@ -1,0 +1,65 @@
+.all-furniture-content {
+	display: grid;
+	grid-template-rows: 1fr 410px;
+	gap: 50px;
+}
+
+.all-furniture-up {
+	display: grid;
+	grid-template-rows: 40px 1fr;
+	gap: 25px;
+	justify-content: center;
+}
+
+.shopping-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 100px;
+}
+
+.shopping-list li {
+	cursor: pointer;
+}
+
+.all-furniture-heading {
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+	color: var(--third-black);
+}
+
+.all-furniture-list-heading {
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--dark-green);
+}
+
+.all-furniture-down {
+	display: grid;
+	grid-template-columns: 580px 1fr;
+}
+
+.all-furniture-picture {
+	max-width: 580px;
+}
+
+.all-furniture-down-left {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 50px 0 50px 70px;
+}
+
+.all-furniture-buttons {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.all-furniture-button {
+	border: 1px solid #d9dce5;
+	cursor: pointer;
+}
+
+.all-furniture-button:hover {
+	background-color: var(--dark-green);
+}
