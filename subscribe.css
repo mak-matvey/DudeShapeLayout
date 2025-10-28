@@ -51,7 +51,7 @@
 	outline: none;
 }
 
-.subscribe-input:active {
+.subscribe-input:focus {
 	color: var(--dark-green);
 }
 
