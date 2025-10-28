@@ -1,6 +1,5 @@
 .all-furniture-content {
 	display: grid;
-	grid-template-rows: 1fr 410px;
 	gap: 50px;
 }
 
@@ -37,6 +36,7 @@
 .all-furniture-down {
 	display: grid;
 	grid-template-columns: 580px 1fr;
+	margin-bottom: 100px;
 }
 
 .all-furniture-picture {
@@ -70,4 +70,41 @@
 	font-weight: 500;
 	font-size: 16px;
 	color: #808080;
+}
+
+.all-furniture-customers {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
+}
+
+.all-furniture-customers-right {
+	display: grid;
+	grid-template-rows: 85px 75px 50px;
+	margin-top: 25%;
+	gap: 40px;
+}
+
+.all-furniture-customers-heading {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1.4;
+	color: var(--third-black);
+}
+
+.all-furniture-customers-subheading {
+	font-size: 20px;
+	line-height: 1.3;
+	color: var(--second-black);
+}
+
+.customer-card {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	gap: 10px;
+}
+
+.customer-card-rating {
+	display: grid;
+	grid-template-columns: 16px 1fr;
 }
