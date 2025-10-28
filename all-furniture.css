@@ -53,6 +53,8 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, 1fr);
+	gap: 25px;
+	margin-left: 25px;
 }
 
 .all-furniture-button {
@@ -62,4 +64,10 @@
 
 .all-furniture-button:hover {
 	background-color: var(--dark-green);
+}
+
+.all-furniture-button-heading {
+	font-weight: 500;
+	font-size: 16px;
+	color: #808080;
 }
