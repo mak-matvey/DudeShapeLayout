@@ -1,0 +1,75 @@
+.footer {
+	background-color: #305f64;
+	color: white;
+	margin-top: 150px;
+}
+
+.footer-content {
+	display: grid;
+	grid-template-rows: 1fr 20px;
+	padding: 50px 20px;
+}
+
+.footer-up {
+	display: grid;
+	grid-template-columns: 2fr repeat(3, 1fr);
+	gap: 10%;
+    margin-bottom: 20px;
+}
+
+.footer-heading {
+	font-weight: 700;
+	font-size: 24px;
+	white-space: nowrap;
+}
+
+.footer-subheading {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.footer-heading,
+.footer-subheading {
+	margin-bottom: 20px;
+}
+
+.DudeShape {
+	display: grid;
+	grid-template-rows: 1fr 120px;
+}
+
+.follow-us {
+	margin-top: 50px;
+	grid-template-rows: 1fr 1fr;
+}
+
+.socials {
+	display: grid;
+	grid-template-columns: repeat(4, 20px);
+	gap: 15px;
+}
+
+.take-a-tour-list li,
+.our-company-list li {
+	cursor: pointer;
+}
+
+.input-label img {
+	cursor: pointer;
+}
+
+.footer-subscribe {
+	display: grid;
+	grid-template-rows: 50px 70px 50px;
+	gap: 20px;
+}
+
+.footer-down {
+    display: grid;
+    justify-content: center;
+}
+
+.footer-rights {
+    font-size: 18px;
+    text-align: center;
+}
